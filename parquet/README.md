@@ -16,6 +16,10 @@ By the end of this lab, you will be able to:
 
 ### Install Required Packages
 
+Install DuckDB in your environment:
+
+- Official [installation](https://duckdb.org/docs/installation/)
+
 Set up a Python virtual environment:
 
 1. Using GitHub Codespace
