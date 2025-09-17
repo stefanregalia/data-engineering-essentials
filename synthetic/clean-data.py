@@ -27,6 +27,15 @@ def clean_parquet():
         """
 
 
+        con.execute(f"""
+        ALTER TABLE synthdata 
+        ADD COLUMN age INTEGER;
+        UPDATE synthdata 
+        SET age = date_diff('year', birth_date, CURRENT_DATE);
+        """)
+
+        con.execute
+
     except Exception as e:
         print(f"An error occurred: {e}")
 
