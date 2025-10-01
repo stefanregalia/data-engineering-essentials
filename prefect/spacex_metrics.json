@@ -1,0 +1,31 @@
+{
+  "total_launches": 187,
+  "successful_launches": 181,
+  "failed_launches": "5",
+  "success_rate_pct": 96.79144385026738,
+  "crewed_missions": "8",
+  "most_used_rocket": "Falcon 9",
+  "launches_by_year": {
+    "2022": 44,
+    "2021": 31,
+    "2020": 26,
+    "2018": 21,
+    "2017": 18,
+    "2019": 13,
+    "2016": 9,
+    "2015": 7,
+    "2014": 6,
+    "2013": 3,
+    "2008": 2,
+    "2010": 2,
+    "2012": 2,
+    "2006": 1,
+    "2007": 1,
+    "2009": 1
+  },
+  "launches_by_rocket": {
+    "Falcon 9": 179,
+    "Falcon 1": 5,
+    "Falcon Heavy": 3
+  }
+}
